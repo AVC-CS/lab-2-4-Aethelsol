@@ -3,6 +3,9 @@ def main():
     original_str = 'Python Programming'
     ##################################################
     # Comlete your code here
+    sub2 = original_str [7:]
+    sub1 = original_str [:6]
+    merged_str = sub2 + ' ' + sub1
     ##################################################
 
     print(sub2)
